@@ -1,0 +1,44 @@
+body {
+    background-color: #eaeded;
+}
+
+.item__show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    margin: 8px;
+    margin-bottom: 20px;
+}
+
+.item__show__carousel {
+    padding: 15px 40px;
+    max-width: 100%;
+    margin: 20px;
+    background-color: white;
+}
+
+.item__show__carousel h3 {
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+
+.item__show__carousel button {
+    padding: 13px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    display: none;
+}
+
+.item__show__carousel:hover button {
+    display: block;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}

@@ -1,0 +1,28 @@
+.navigation li{
+    display: inline;
+    color: white;
+    list-style: none;
+    position: relative;;
+    padding: 5px;
+}
+
+.navigation li a {
+    /* padding: 4px; */
+    margin: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.navigation li a:hover{
+    cursor: pointer;
+}
+
+.navigation{
+    background-color: #232f3e;
+    padding: 8px;
+    padding-bottom: 10px;
+    display: flex;
+}

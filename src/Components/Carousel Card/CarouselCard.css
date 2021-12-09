@@ -1,0 +1,11 @@
+.carousel__main {
+    height: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel__main img {
+    width: 100%;
+    height: 100%;
+}

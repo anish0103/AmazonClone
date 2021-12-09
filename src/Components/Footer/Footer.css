@@ -1,0 +1,50 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer button {
+    width: 100%;
+    color: white;
+    background-color: rgb(55, 71, 90);
+    cursor: pointer;
+    font-size: 13px;
+    padding: 15px 0;
+    border: none;
+}
+
+.footer button:hover {
+    background-color: #4B596B;
+}
+
+.footer__container {
+    background-color: rgb(35, 47, 62);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__stuff {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px;
+    width: 60%;
+}
+
+.footer__title {
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.footer__text {
+    cursor: pointer;
+    color: rgb(208, 208, 208);
+    font-size: 13px;
+}
+
+.footer__text h4 {
+    margin-bottom: 12px;
+    font-weight: 600;
+}
